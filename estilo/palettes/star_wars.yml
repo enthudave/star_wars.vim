@@ -1,0 +1,18 @@
+base0      : '#ffffff'
+
+base1      : '#cbcdd2'
+base2      : '#848794'
+base3      : '#686b78'
+base4      : '#45474f'
+base5      : '#2f3137'
+base6      : '#1c1d21'
+
+base7      : '#000000'
+
+red        : '#eb3d54'
+blue       : '#4fb4d8'
+green      : '#78bd65'
+yellow     : '#e5cd52'
+
+orange     : '#ef7c2a'
+light_blue : '#6dc0df'

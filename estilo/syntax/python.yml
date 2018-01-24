@@ -1,0 +1,30 @@
+pythonRun             : '@Comment'
+pythonStatement       : '@Statement' # Statement
+pythonConditional     : '@Conditional' # Conditional
+pythonRepeat          : '@Repeat' # Repeat
+pythonOperator        : '@Operator' # Operator
+pythonException       : '@Exception' # Exception
+pythonExceptions      : '@Structure' # Exception
+pythonInclude         : '@Include' # Include
+pythonDecorator       : '@Define' # Define
+pythonFunction        : '@Function' # Function
+pythonParameters      : '@Constant'
+pythonParam           : '@Normal'
+pythonBrackets        : '@Normal'
+pythonClass           : '@Function'
+pythonClassVars       : '@Normal'
+pythonClassParameters : '@Normal'
+pythonComment         : '@Comment' # Comment
+pythonTodo            : '' # Todo
+pythonString          : '@String' # String
+pythonRawString       : '@String' # String
+pythonQuotes          : '@String' # String
+pythonTripleQuotes    : '@String' # pythonQuotes
+pythonEscape          : '@Special' # Special
+pythonNumber          : '@Number' # Number
+pythonBuiltin         : '@Function'
+pythonBuiltinFunc     : '@Function' # Function
+pythonSpaceError      : '' # Error
+pythonDoctest         : '' # Special
+pythonDoctestValue : '' # Define
+pythonDefine       : '@Define'

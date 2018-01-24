@@ -1,2 +1,2 @@
-# star_wars.vim
-vim colorscheme inspired by the 'An Old Hope' scheme for Atom
+# Star Wars Theme for Vim
+  inspired by the "An Old Hope" colorscheme for Atom

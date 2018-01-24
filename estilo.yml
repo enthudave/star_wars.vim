@@ -1,0 +1,20 @@
+name: 'star_wars'
+version: '1.0.0'
+license: ''
+author: 'enthudave'
+url: ''
+description: 'star wars inspired colorscheme'
+colorschemes:
+  - name: 'star_wars'
+    background: 'dark'
+    palette: 'star_wars'
+airline:
+  - name: 'star_wars'
+    palette: 'star_wars'
+    style: 'regular'
+    description: 'Star Wars Airline theme'
+lightline:
+  - name: 'star_wars'
+    palette: 'star_wars'
+    style: 'regular'
+    description: 'Star Wars Lightline theme'

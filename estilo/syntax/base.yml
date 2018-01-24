@@ -1,0 +1,87 @@
+ColorColumn    : '- base7'
+Conceal        : 'green base1'
+Cursor         : 'green base7'
+CursorIM       : ''
+CursorColumn   : '- base1'
+CursorLine     : '- base5'
+CursorLineNr   : 'base4 base1'
+Directory      : 'light_blue -'
+DiffAdd        : 'base7 green'
+DiffAdded      : 'green -'
+DiffChange     : 'base7 blue'
+DiffChanged    : 'blue -'
+DiffRemoved    : 'red -'
+DiffSubname    : 'base4'
+DiffDelete     : 'base7 red'
+DiffText       : 'base7 light_blue'
+ErrorMsg       : 'red base1'
+VertSplit      : 'base4 base1'
+Folded         : 'base6 blue'
+FoldColumn     : 'base5 base3'
+SignColumn     : '- base1'
+IncSearch      : '- - r'
+LineNr         : 'base2 base5'
+MatchParen     : 'base1 red'
+ModeMsg        : 'blue -'
+MoreMsg        : ''
+NonText        : 'base4 -'
+Normal         : 'base0 base6'
+PMenu          : 'base7 light_blue'
+PMenuSel       : 'base7 green b'
+PmenuSbar      : '- base2'
+PmenuThumb     : '- base4'
+Question       : 'green -'
+Search         : 'base2 yellow'
+SpecialKey     : 'base3 -'
+SpellBad       : 'base7 red'
+SpellLocal     : 'yellow -'
+SpellCap       : 'base7 orange'
+SpellRare      : 'base7 blue'
+StatusLine     : 'base5 base2'
+StatusLineNC   : 'base4 base2'
+TabLine        : 'base6 base2'
+TabLineFill    : 'base0 base0'
+TabLineSel     : 'base7 base4'
+Title          : 'yellow -'
+Visual         : '- base3'
+VisualNOS      : '- base3'
+WarningMsg     : 'red -'
+WildMenu       : 'base7 light_blue'
+Comment        : 'base3 -'
+Constant       : 'orange -'
+String         : 'yellow -' # Constant
+Character      : '@Constant' # Constant
+Boolean        : '@Constant' # Constant
+Number         : '@Constant' # Constant
+Float          : '@Number' # Constant
+Identifier     : 'blue -'
+Function       : '@Identifier' # Identifier
+Statement      : 'green -'
+Conditional    : '@PreProc' # Statement
+Repeat         : '@PreProc' # Statement
+Label          : '@Type' # Statement
+Operator       : '@PreProc' # Statement
+Keyword        : '@Statement' # Statement
+Exception      : '@PreProc' # Statement
+PreProc        : 'red -'
+Include        : '@PreProc' # PreProc
+Define         : 'green - b' # PreProc
+Macro          : '@PreProc' # PreProc
+PreCondit      : '@PreProc' # PreProc
+Type           : 'green - '
+StorageClass   : '@Type' # Type
+Structure      : '@Type' # Type
+Typedef        : '@Type' # Type
+Special        : 'yellow -'
+SpecialChar    : '@Special' # Special
+Tag            : '@Special' # Special
+Delimiter      : '@Identifier' # Special
+SpecialComment : '@Special' # Special
+Debug          : '@Special' # Special
+Underlined     : 'yellow - u'
+Ignore         : ''
+Error          : 'red base1'
+Todo           : 'orange -'
+
+
+

@@ -1,0 +1,40 @@
+# normal
+insert1: 'base7 green' # 2 items
+insert2: 'base5 base2' # 2 items
+insert3: 'base5 base1' # 1 item
+insert4: 'base7 base4' # 2 items
+insert5: 'base5 base2' # 2 items
+normalError: 'base7 red' # 1 item
+normalWarning: 'base7 yellow' # 1 item
+# inactive
+inactive1:  'base4 base1' # 2 items
+inactive2:  'base4 base1' # 2 items
+inactive3: 'base4 base1' # 1 item, linking to normal.middle by default
+inactive4: 'base4 base2' # 2 items, linking to normal.right by default
+inactive5: 'base4 base1' # 2 items, linking to normal.right by default
+# insert
+normal1: 'base7 blue' # 2 items
+normal2: 'base5 base2' # 2 items
+normal3: 'base5 base1' # 1 items, linking to normal.middle by default
+normal4: 'base7 base4' # 2 items, linking to normal.right by default
+normal5: 'base5 base2' # 2 items, linking to normal.right by default
+# replace
+replace1: 'base7 red' # 2 items
+replace2: 'base5 base2' # 2 items
+replace3: 'base5 base1' # 1 items, linking to normal.middle by default
+replace4: 'base7 base4' # 2 items, linking to normal.right by default
+replace5: 'base5 base2' # 2 items, linking to normal.right by default
+# visual
+visual1: 'base7 orange' # 2 items
+visual2: 'base5 base2' # 2 items
+visual3: 'base5 base1' # 1 items, linking to normal.middle by default
+visual4: 'base7 base4' # 2 items, linking to normal.right by default
+visual5: 'base5 base2' # 2 items, linking to normal.right by default
+# tabline
+tablineLeft: 'base5 base2' # 1 item
+tablineSelected: 'base7 base4' # 1 item
+tablineMiddle: 'base5 base1' # 1 item
+tablineRight: 'base5 base2' # 1 item
+
+
+

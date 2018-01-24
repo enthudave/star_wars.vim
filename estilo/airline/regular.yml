@@ -1,0 +1,21 @@
+# normal
+insert1: 'base7 blue' # 2 items
+insert2: 'base7 base2' # 2 items
+insert3: 'base7 base1' # 1 item
+# inactive
+inactive1:  'base7 base2' # 2 items
+inactive2: 'base7 base3' # 2 items, linking to normal.right by default
+inactive3: 'base7 base2' # 1 item, linking to normal.middle by default
+# insert
+normal1: 'base7 green' # 2 items
+normal2: 'base7 base2' # 2 items, linking to normal.right by default
+normal3: 'base7 base1' # 1 items, linking to normal.middle by default
+# replace
+replace1: 'base7 red'  # 2 items
+replace2: 'base7 base2' # 2 items, linking to normal.right by default
+replace3: 'base7 base1' # 1 items, linking to normal.middle by default
+# visual
+visual1: 'base7 yellow' # 2 items
+visual2: 'base7 base2' # 2 items, linking to normal.right by default
+visual3: 'base7 base1' # 1 items, linking to normal.middle by default
+
