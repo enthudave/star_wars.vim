@@ -50,19 +50,19 @@ WildMenu       : 'base7 light_blue'
 Comment        : 'base3 -'
 Constant       : 'orange -'
 String         : 'yellow -' # Constant
-Character      : '@Constant' # Constant
-Boolean        : '@Constant' # Constant
-Number         : '@Constant' # Constant
+Character      : '@String' # Constant
+Boolean        : '@Operator' # Constant
+Number         : '@String' # Constant
 Float          : '@Number' # Constant
 Identifier     : 'blue -'
 Function       : '@Identifier' # Identifier
 Statement      : 'green -'
-Conditional    : '@PreProc' # Statement
-Repeat         : '@PreProc' # Statement
+Conditional    : '@Statement' # Statement
+Repeat         : '@Statement' # Statement
 Label          : '@Type' # Statement
-Operator       : '@PreProc' # Statement
+Operator       : 'red - b' # Statement
 Keyword        : '@Statement' # Statement
-Exception      : '@PreProc' # Statement
+Exception      : '@Statement' # Statement
 PreProc        : 'red -'
 Include        : '@PreProc' # PreProc
 Define         : 'green - b' # PreProc
@@ -80,7 +80,7 @@ SpecialComment : '@Special' # Special
 Debug          : '@Special' # Special
 Underlined     : 'yellow - u'
 Ignore         : ''
-Error          : 'red base1'
+Error          : 'base6 red'
 Todo           : 'orange -'
 
 

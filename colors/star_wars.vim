@@ -4,7 +4,7 @@
 " URL: 
 " Author: enthudave
 " License: 
-" Last Change: 2018/01/24 19:01
+" Last Change: 2018/02/03 17:10
 " ===============================================================
 
 set background=dark
@@ -64,19 +64,19 @@ hi WildMenu guifg=#000000 ctermfg=0 guibg=#6dc0df ctermbg=74 gui=NONE cterm=NONE
 hi Comment guifg=#686b78 ctermfg=242 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Constant guifg=#ef7c2a ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi String guifg=#e5cd52 ctermfg=185 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi link Character Constant
-hi link Boolean Constant
-hi link Number Constant
+hi link Character String
+hi link Boolean Operator
+hi link Number String
 hi link Float Number
 hi Identifier guifg=#4fb4d8 ctermfg=74 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi link Function Identifier
 hi Statement guifg=#78bd65 ctermfg=107 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi link Conditional PreProc
-hi link Repeat PreProc
+hi link Conditional Statement
+hi link Repeat Statement
 hi link Label Type
-hi link Operator PreProc
+hi Operator guifg=#eb3d54 ctermfg=167 guibg=NONE ctermbg=NONE gui=bold cterm=bold
 hi link Keyword Statement
-hi link Exception PreProc
+hi link Exception Statement
 hi PreProc guifg=#eb3d54 ctermfg=167 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi link Include PreProc
 hi Define guifg=#78bd65 ctermfg=107 guibg=NONE ctermbg=NONE gui=bold cterm=bold
@@ -93,7 +93,7 @@ hi link Delimiter Identifier
 hi link SpecialComment Special
 hi link Debug Special
 hi Underlined guifg=#e5cd52 ctermfg=185 guibg=NONE ctermbg=NONE gui=underline cterm=underline
-hi Error guifg=#eb3d54 ctermfg=167 guibg=#cbcdd2 ctermbg=252 gui=NONE cterm=NONE
+hi Error guifg=#1c1d21 ctermfg=234 guibg=#eb3d54 ctermbg=167 gui=NONE cterm=NONE
 hi Todo guifg=#ef7c2a ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi link htmlTag Statement
 hi link htmlEndTag Normal
@@ -107,8 +107,8 @@ hi link pythonStatement Statement
 hi link pythonConditional Conditional
 hi link pythonRepeat Repeat
 hi link pythonOperator Operator
-hi link pythonException Exception
-hi link pythonExceptions Structure
+hi link pythonException Statement
+hi link pythonExceptions Operator
 hi link pythonInclude Include
 hi link pythonDecorator Define
 hi link pythonFunction Function

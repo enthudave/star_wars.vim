@@ -3,8 +3,8 @@ pythonStatement       : '@Statement' # Statement
 pythonConditional     : '@Conditional' # Conditional
 pythonRepeat          : '@Repeat' # Repeat
 pythonOperator        : '@Operator' # Operator
-pythonException       : '@Exception' # Exception
-pythonExceptions      : '@Structure' # Exception
+pythonException       : '@Statement' # Exception
+pythonExceptions      : '@Operator' # Exception
 pythonInclude         : '@Include' # Include
 pythonDecorator       : '@Define' # Define
 pythonFunction        : '@Function' # Function
