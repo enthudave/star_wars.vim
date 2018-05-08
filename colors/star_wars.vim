@@ -4,7 +4,7 @@
 " URL: 
 " Author: enthudave
 " License: 
-" Last Change: 2018/02/06 22:17
+" Last Change: 2018/05/08 20:32
 " ===============================================================
 
 set background=dark
@@ -300,7 +300,7 @@ hi link javascriptFuncArg Special
 hi link javascriptArrowFuncArg javascriptFuncArg
 hi link javascriptTagRef Function
 hi link javascriptComma Normal
-hi link javascriptClassKeyword Type
+hi link javascriptClassKeyword Define
 hi link javascriptClassExtends Type
 hi link javascriptClassName Function
 hi link javascriptClassSuperName Function
