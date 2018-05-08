@@ -2,26 +2,26 @@ ColorColumn    : '- base7'
 Conceal        : 'green base1'
 Cursor         : 'green base7'
 CursorIM       : ''
-CursorColumn   : '- base1'
+CursorColumn   : '- base5'
 CursorLine     : '- base5'
-CursorLineNr   : 'base4 base1'
+CursorLineNr   : 'yellow base4'
 Directory      : 'light_blue -'
 DiffAdd        : 'base7 green'
-DiffAdded      : 'green -'
+DiffAdded      : 'green base6'
 DiffChange     : 'base7 blue'
-DiffChanged    : 'blue -'
-DiffRemoved    : 'red -'
+DiffChanged    : 'blue base6'
+DiffRemoved    : 'red base6'
 DiffSubname    : 'base4'
 DiffDelete     : 'base7 red'
 DiffText       : 'base7 light_blue'
-ErrorMsg       : 'red base1'
-VertSplit      : 'base4 base1'
+ErrorMsg       : 'red base6'
+VertSplit      : 'base2 base4'
 Folded         : 'base6 blue'
 FoldColumn     : 'base5 base3'
-SignColumn     : '- base1'
+SignColumn     : '- base5'
 IncSearch      : '- - r'
 LineNr         : 'base2 base5'
-MatchParen     : 'base1 red'
+MatchParen     : 'base7 light_blue b'
 ModeMsg        : 'blue -'
 MoreMsg        : ''
 NonText        : 'base4 -'
@@ -31,7 +31,7 @@ PMenuSel       : 'base7 green b'
 PmenuSbar      : '- base2'
 PmenuThumb     : '- base4'
 Question       : 'green -'
-Search         : 'base2 yellow'
+Search         : 'base7 light_blue b'
 SpecialKey     : 'base3 -'
 SpellBad       : 'base7 red'
 SpellLocal     : 'yellow -'
@@ -39,28 +39,28 @@ SpellCap       : 'base7 orange'
 SpellRare      : 'base7 blue'
 StatusLine     : 'base5 base2'
 StatusLineNC   : 'base4 base2'
-TabLine        : 'base6 base2'
-TabLineFill    : 'base0 base0'
-TabLineSel     : 'base7 base4'
+TabLine        : 'base7 base2'
+TabLineFill    : '- base5'
+TabLineSel     : 'base7 green'
 Title          : 'yellow -'
 Visual         : '- base3'
 VisualNOS      : '- base3'
-WarningMsg     : 'red -'
+WarningMsg     : 'bright_orange -'
 WildMenu       : 'base7 light_blue'
 Comment        : 'base3 -'
-Constant       : 'orange -'
+Constant       : 'bright_orange -'
 String         : 'yellow -' # Constant
 Character      : '@String' # Constant
-Boolean        : '@Operator' # Constant
-Number         : '@String' # Constant
-Float          : '@Number' # Constant
+Boolean        : 'bright_orange -' # Constant
+Number         : 'bright_orange -' # Constant
+Float          : 'bright_orange -' # Constant
 Identifier     : 'blue -'
 Function       : '@Identifier' # Identifier
 Statement      : 'green -'
 Conditional    : '@Statement' # Statement
 Repeat         : '@Statement' # Statement
 Label          : '@Type' # Statement
-Operator       : 'red - b' # Statement
+Operator       : 'red -' # Statement
 Keyword        : '@Statement' # Statement
 Exception      : '@Statement' # Statement
 PreProc        : 'red -'
@@ -68,20 +68,20 @@ Include        : '@PreProc' # PreProc
 Define         : 'green - b' # PreProc
 Macro          : '@PreProc' # PreProc
 PreCondit      : '@PreProc' # PreProc
-Type           : 'green - '
+Type           : 'bright_orange - '
 StorageClass   : '@Type' # Type
-Structure      : '@Type' # Type
-Typedef        : '@Type' # Type
-Special        : 'yellow -'
+Structure      : '@Define' # Type
+Typedef        : '@Define' # Type
+Special        : 'orange -'
 SpecialChar    : '@Special' # Special
 Tag            : '@Special' # Special
-Delimiter      : '@Identifier' # Special
+Delimiter      : '@Normal' # Special
 SpecialComment : '@Special' # Special
 Debug          : '@Special' # Special
 Underlined     : 'yellow - u'
 Ignore         : ''
-Error          : 'base6 red'
-Todo           : 'orange -'
+Error          : 'red - b'
+Todo           : 'orange - b'
 
 
 

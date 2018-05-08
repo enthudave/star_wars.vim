@@ -1,0 +1,2 @@
+javaClassDecl : '@Define'
+javaScopeDecl : '@Statement'

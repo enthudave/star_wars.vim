@@ -4,7 +4,7 @@
 " URL: 
 " Author: enthudave
 " License: 
-" Last Change: 2018/02/03 17:10
+" Last Change: 2018/02/06 22:17
 " ===============================================================
 
 set background=dark
@@ -17,64 +17,64 @@ let g:colors_name="star_wars"
 hi ColorColumn guifg=NONE ctermfg=NONE guibg=#000000 ctermbg=0 gui=NONE cterm=NONE
 hi Conceal guifg=#78bd65 ctermfg=107 guibg=#cbcdd2 ctermbg=252 gui=NONE cterm=NONE
 hi Cursor guifg=#78bd65 ctermfg=107 guibg=#000000 ctermbg=0 gui=NONE cterm=NONE
-hi CursorColumn guifg=NONE ctermfg=NONE guibg=#cbcdd2 ctermbg=252 gui=NONE cterm=NONE
+hi CursorColumn guifg=NONE ctermfg=NONE guibg=#2f3137 ctermbg=236 gui=NONE cterm=NONE
 hi CursorLine guifg=NONE ctermfg=NONE guibg=#2f3137 ctermbg=236 gui=NONE cterm=NONE
-hi CursorLineNr guifg=#45474f ctermfg=238 guibg=#cbcdd2 ctermbg=252 gui=NONE cterm=NONE
+hi CursorLineNr guifg=#e4d867 ctermfg=185 guibg=#45474f ctermbg=238 gui=NONE cterm=NONE
 hi Directory guifg=#6dc0df ctermfg=74 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi DiffAdd guifg=#000000 ctermfg=0 guibg=#78bd65 ctermbg=107 gui=NONE cterm=NONE
-hi DiffAdded guifg=#78bd65 ctermfg=107 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi DiffAdded guifg=#78bd65 ctermfg=107 guibg=#1c1d21 ctermbg=234 gui=NONE cterm=NONE
 hi DiffChange guifg=#000000 ctermfg=0 guibg=#4fb4d8 ctermbg=74 gui=NONE cterm=NONE
-hi DiffChanged guifg=#4fb4d8 ctermfg=74 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi DiffRemoved guifg=#eb3d54 ctermfg=167 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi DiffChanged guifg=#4fb4d8 ctermfg=74 guibg=#1c1d21 ctermbg=234 gui=NONE cterm=NONE
+hi DiffRemoved guifg=#eb3d54 ctermfg=167 guibg=#1c1d21 ctermbg=234 gui=NONE cterm=NONE
 hi DiffSubname guifg=#45474f ctermfg=238 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi DiffDelete guifg=#000000 ctermfg=0 guibg=#eb3d54 ctermbg=167 gui=NONE cterm=NONE
 hi DiffText guifg=#000000 ctermfg=0 guibg=#6dc0df ctermbg=74 gui=NONE cterm=NONE
-hi ErrorMsg guifg=#eb3d54 ctermfg=167 guibg=#cbcdd2 ctermbg=252 gui=NONE cterm=NONE
-hi VertSplit guifg=#45474f ctermfg=238 guibg=#cbcdd2 ctermbg=252 gui=NONE cterm=NONE
+hi ErrorMsg guifg=#eb3d54 ctermfg=167 guibg=#1c1d21 ctermbg=234 gui=NONE cterm=NONE
+hi VertSplit guifg=#848794 ctermfg=102 guibg=#45474f ctermbg=238 gui=NONE cterm=NONE
 hi Folded guifg=#1c1d21 ctermfg=234 guibg=#4fb4d8 ctermbg=74 gui=NONE cterm=NONE
 hi FoldColumn guifg=#2f3137 ctermfg=236 guibg=#686b78 ctermbg=242 gui=NONE cterm=NONE
-hi SignColumn guifg=NONE ctermfg=NONE guibg=#cbcdd2 ctermbg=252 gui=NONE cterm=NONE
+hi SignColumn guifg=NONE ctermfg=NONE guibg=#2f3137 ctermbg=236 gui=NONE cterm=NONE
 hi IncSearch guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=reverse cterm=reverse
 hi LineNr guifg=#848794 ctermfg=102 guibg=#2f3137 ctermbg=236 gui=NONE cterm=NONE
-hi MatchParen guifg=#cbcdd2 ctermfg=252 guibg=#eb3d54 ctermbg=167 gui=NONE cterm=NONE
+hi MatchParen guifg=#000000 ctermfg=0 guibg=#6dc0df ctermbg=74 gui=bold cterm=bold
 hi ModeMsg guifg=#4fb4d8 ctermfg=74 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi NonText guifg=#45474f ctermfg=238 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi Normal guifg=#ffffff ctermfg=15 guibg=#1c1d21 ctermbg=234 gui=NONE cterm=NONE
+hi Normal guifg=#f1f1f1 ctermfg=255 guibg=#1c1d21 ctermbg=234 gui=NONE cterm=NONE
 hi PMenu guifg=#000000 ctermfg=0 guibg=#6dc0df ctermbg=74 gui=NONE cterm=NONE
 hi PMenuSel guifg=#000000 ctermfg=0 guibg=#78bd65 ctermbg=107 gui=bold cterm=bold
 hi PmenuSbar guifg=NONE ctermfg=NONE guibg=#848794 ctermbg=102 gui=NONE cterm=NONE
 hi PmenuThumb guifg=NONE ctermfg=NONE guibg=#45474f ctermbg=238 gui=NONE cterm=NONE
 hi Question guifg=#78bd65 ctermfg=107 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi Search guifg=#848794 ctermfg=102 guibg=#e5cd52 ctermbg=185 gui=NONE cterm=NONE
+hi Search guifg=#000000 ctermfg=0 guibg=#6dc0df ctermbg=74 gui=bold cterm=bold
 hi SpecialKey guifg=#686b78 ctermfg=242 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi SpellBad guifg=#000000 ctermfg=0 guibg=#eb3d54 ctermbg=167 gui=NONE cterm=NONE
-hi SpellLocal guifg=#e5cd52 ctermfg=185 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi SpellLocal guifg=#e4d867 ctermfg=185 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi SpellCap guifg=#000000 ctermfg=0 guibg=#ef7c2a ctermbg=208 gui=NONE cterm=NONE
 hi SpellRare guifg=#000000 ctermfg=0 guibg=#4fb4d8 ctermbg=74 gui=NONE cterm=NONE
 hi StatusLine guifg=#2f3137 ctermfg=236 guibg=#848794 ctermbg=102 gui=NONE cterm=NONE
 hi StatusLineNC guifg=#45474f ctermfg=238 guibg=#848794 ctermbg=102 gui=NONE cterm=NONE
-hi TabLine guifg=#1c1d21 ctermfg=234 guibg=#848794 ctermbg=102 gui=NONE cterm=NONE
-hi TabLineFill guifg=#ffffff ctermfg=15 guibg=#ffffff ctermbg=15 gui=NONE cterm=NONE
-hi TabLineSel guifg=#000000 ctermfg=0 guibg=#45474f ctermbg=238 gui=NONE cterm=NONE
-hi Title guifg=#e5cd52 ctermfg=185 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi TabLine guifg=#000000 ctermfg=0 guibg=#848794 ctermbg=102 gui=NONE cterm=NONE
+hi TabLineFill guifg=NONE ctermfg=NONE guibg=#2f3137 ctermbg=236 gui=NONE cterm=NONE
+hi TabLineSel guifg=#000000 ctermfg=0 guibg=#78bd65 ctermbg=107 gui=NONE cterm=NONE
+hi Title guifg=#e4d867 ctermfg=185 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Visual guifg=NONE ctermfg=NONE guibg=#686b78 ctermbg=242 gui=NONE cterm=NONE
 hi VisualNOS guifg=NONE ctermfg=NONE guibg=#686b78 ctermbg=242 gui=NONE cterm=NONE
-hi WarningMsg guifg=#eb3d54 ctermfg=167 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi WarningMsg guifg=#ffad33 ctermfg=215 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi WildMenu guifg=#000000 ctermfg=0 guibg=#6dc0df ctermbg=74 gui=NONE cterm=NONE
 hi Comment guifg=#686b78 ctermfg=242 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi Constant guifg=#ef7c2a ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi String guifg=#e5cd52 ctermfg=185 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi Constant guifg=#ffad33 ctermfg=215 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi String guifg=#e4d867 ctermfg=185 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi link Character String
-hi link Boolean Operator
-hi link Number String
-hi link Float Number
+hi Boolean guifg=#ffad33 ctermfg=215 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi Number guifg=#ffad33 ctermfg=215 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi Float guifg=#ffad33 ctermfg=215 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Identifier guifg=#4fb4d8 ctermfg=74 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi link Function Identifier
 hi Statement guifg=#78bd65 ctermfg=107 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi link Conditional Statement
 hi link Repeat Statement
 hi link Label Type
-hi Operator guifg=#eb3d54 ctermfg=167 guibg=NONE ctermbg=NONE gui=bold cterm=bold
+hi Operator guifg=#eb3d54 ctermfg=167 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi link Keyword Statement
 hi link Exception Statement
 hi PreProc guifg=#eb3d54 ctermfg=167 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -82,19 +82,20 @@ hi link Include PreProc
 hi Define guifg=#78bd65 ctermfg=107 guibg=NONE ctermbg=NONE gui=bold cterm=bold
 hi link Macro PreProc
 hi link PreCondit PreProc
-hi Type guifg=#78bd65 ctermfg=107 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi Type guifg=#ffad33 ctermfg=215 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi link StorageClass Type
-hi link Structure Type
-hi link Typedef Type
-hi Special guifg=#e5cd52 ctermfg=185 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi link Structure Define
+hi link Typedef Define
+hi Special guifg=#ef7c2a ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi link SpecialChar Special
 hi link Tag Special
-hi link Delimiter Identifier
+hi link Delimiter Normal
 hi link SpecialComment Special
 hi link Debug Special
-hi Underlined guifg=#e5cd52 ctermfg=185 guibg=NONE ctermbg=NONE gui=underline cterm=underline
-hi Error guifg=#1c1d21 ctermfg=234 guibg=#eb3d54 ctermbg=167 gui=NONE cterm=NONE
-hi Todo guifg=#ef7c2a ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi Underlined guifg=#e4d867 ctermfg=185 guibg=NONE ctermbg=NONE gui=underline cterm=underline
+hi Error guifg=#eb3d54 ctermfg=167 guibg=NONE ctermbg=NONE gui=bold cterm=bold
+hi Todo guifg=#ef7c2a ctermfg=208 guibg=NONE ctermbg=NONE gui=bold cterm=bold
+hi link goDeclaration Define
 hi link htmlTag Statement
 hi link htmlEndTag Normal
 hi link htmlArg Comment
@@ -102,28 +103,33 @@ hi link htmlTagName Statement
 hi htmlBold guifg=#6dc0df ctermfg=74 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi htmlItalic guifg=#ef7c2a ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi link javaScriptExpression javascript
+hi link javaClassDecl Define
+hi link javaScopeDecl Statement
 hi link pythonRun Comment
 hi link pythonStatement Statement
 hi link pythonConditional Conditional
 hi link pythonRepeat Repeat
 hi link pythonOperator Operator
 hi link pythonException Statement
-hi link pythonExceptions Operator
+hi link pythonExceptions Special
+hi link pythonExClass Special
 hi link pythonInclude Include
-hi link pythonDecorator Define
+hi link pythonDecorator Constant
+hi link pythonDottedName Constant
 hi link pythonFunction Function
-hi link pythonParameters Constant
+hi link pythonParameters Special
 hi link pythonParam Normal
 hi link pythonBrackets Normal
 hi link pythonClass Function
 hi link pythonClassVars Normal
+hi link pythonClassVar Constant
 hi link pythonClassParameters Normal
 hi link pythonComment Comment
 hi link pythonString String
 hi link pythonRawString String
 hi link pythonQuotes String
 hi link pythonTripleQuotes String
-hi link pythonEscape Special
+hi link pythonEscape Constant
 hi link pythonNumber Number
 hi link pythonBuiltin Function
 hi link pythonBuiltinFunc Function
@@ -208,10 +214,10 @@ hi link typescriptHtmlEvents Special
 hi link typescriptHtmlElemProperties Special
 hi link typescriptEventListenerKeywords Keyword
 hi link typescriptPropietaryObjects Constant
-hi GitGutterAdd guifg=#78bd65 ctermfg=107 guibg=#cbcdd2 ctermbg=252 gui=NONE cterm=NONE
-hi GitGutterChange guifg=#6dc0df ctermfg=74 guibg=#cbcdd2 ctermbg=252 gui=NONE cterm=NONE
-hi GitGutterDelete guifg=#e5cd52 ctermfg=185 guibg=#cbcdd2 ctermbg=252 gui=NONE cterm=NONE
-hi GitGutterChangeDelete guifg=#ef7c2a ctermfg=208 guibg=#cbcdd2 ctermbg=252 gui=NONE cterm=NONE
+hi GitGutterAdd guifg=#78bd65 ctermfg=107 guibg=#2f3137 ctermbg=236 gui=NONE cterm=NONE
+hi GitGutterChange guifg=#6dc0df ctermfg=74 guibg=#2f3137 ctermbg=236 gui=NONE cterm=NONE
+hi GitGutterDelete guifg=#e4d867 ctermfg=185 guibg=#2f3137 ctermbg=236 gui=NONE cterm=NONE
+hi GitGutterChangeDelete guifg=#ef7c2a ctermfg=208 guibg=#2f3137 ctermbg=236 gui=NONE cterm=NONE
 hi link vimCondHL Conditional
 hi link xmlTag Statement
 hi link xmlTagName Statement

@@ -1,5 +1,5 @@
 goDirective: '' # Statement
-goDeclaration: '' # Keyword
+goDeclaration: '@Define' # Keyword
 goDeclType: '' # Keyword
 goStatement: '' # Statement
 goConditional: '' # Conditional

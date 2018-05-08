@@ -4,7 +4,7 @@
 " URL: 
 " Author: enthudave
 " License: 
-" Last Change: 2018/02/03 17:10
+" Last Change: 2018/02/06 22:17
 " ============================================================
 
 let s:p = {"normal": {}, "inactive": {}, "insert": {}, "replace": {}, "visual": {}, "tabline": {} }
@@ -13,7 +13,7 @@ let s:p.normal.left = [[["#000000", 0], ["#4fb4d8", 74]], [["#2f3137", 236], ["#
 let s:p.normal.middle = [[["#2f3137", 236], ["#cbcdd2", 252]]]
 let s:p.normal.right = [[["#000000", 0], ["#45474f", 238]], [["#2f3137", 236], ["#848794", 102]]]
 let s:p.normal.error = [[["#000000", 0], ["#eb3d54", 167]]]
-let s:p.normal.warning = [[["#000000", 0], ["#e5cd52", 185]]]
+let s:p.normal.warning = [[["#000000", 0], ["#e4d867", 185]]]
 
 let s:p.inactive.left = [[["#45474f", 238], ["#cbcdd2", 252]], [["#45474f", 238], ["#cbcdd2", 252]]]
 let s:p.inactive.middle = [[["#45474f", 238], ["#cbcdd2", 252]]]

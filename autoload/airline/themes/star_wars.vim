@@ -4,7 +4,7 @@
 " URL:
 " Author: enthudave
 " License: 
-" Last Change: 2018/02/03 17:10
+" Last Change: 2018/02/06 22:17
 " ============================================================
 
 let g:airline#themes#star_wars#palette = {}
@@ -24,7 +24,7 @@ let s:replace2 = [ "#000000", "#848794", 0, 102 ]
 let s:replace3 = [ "#000000", "#cbcdd2", 0, 252 ]
 let g:airline#themes#star_wars#palette.replace = airline#themes#generate_color_map(s:replace1, s:replace2, s:replace3)
 
-let s:visual1 = [ "#000000", "#e5cd52", 0, 185 ]
+let s:visual1 = [ "#000000", "#e4d867", 0, 185 ]
 let s:visual2 = [ "#000000", "#848794", 0, 102 ]
 let s:visual3 = [ "#000000", "#cbcdd2", 0, 252 ]
 let g:airline#themes#star_wars#palette.visual = airline#themes#generate_color_map(s:visual1, s:visual2, s:visual3)
