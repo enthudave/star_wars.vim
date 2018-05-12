@@ -78,7 +78,7 @@ Tag            : '@Special' # Special
 Delimiter      : '@Normal' # Special
 SpecialComment : '@Special' # Special
 Debug          : '@Special' # Special
-Underlined     : 'yellow - u'
+Underlined     : '- - u'
 Ignore         : ''
 Error          : 'red - b'
 Todo           : 'orange - b'

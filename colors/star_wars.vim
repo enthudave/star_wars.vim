@@ -4,7 +4,7 @@
 " URL: 
 " Author: enthudave
 " License: 
-" Last Change: 2018/05/08 20:32
+" Last Change: 2018/05/12 20:07
 " ===============================================================
 
 set background=dark
@@ -92,16 +92,37 @@ hi link Tag Special
 hi link Delimiter Normal
 hi link SpecialComment Special
 hi link Debug Special
-hi Underlined guifg=#e4d867 ctermfg=185 guibg=NONE ctermbg=NONE gui=underline cterm=underline
+hi Underlined guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=underline cterm=underline
 hi Error guifg=#eb3d54 ctermfg=167 guibg=NONE ctermbg=NONE gui=bold cterm=bold
 hi Todo guifg=#ef7c2a ctermfg=208 guibg=NONE ctermbg=NONE gui=bold cterm=bold
+hi link cssTagName Identifier
+hi link cssAttrComma Operator
+hi link cssColor Normal
+hi link cssIdentifier Special
+hi link cssMediaComma Operator
+hi link cssClassName Type
+hi link cssClassNameDot Type
+hi link cssProp Keyword
+hi link cssAttr Normal
+hi link cssNoise Operator
 hi link goDeclaration Define
-hi link htmlTag Statement
+hi link htmlTag Normal
 hi link htmlEndTag Normal
-hi link htmlArg Comment
-hi link htmlTagName Statement
-hi htmlBold guifg=#6dc0df ctermfg=74 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi htmlItalic guifg=#ef7c2a ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi link htmlArg Statement
+hi link htmlTagName Identifier
+hi link htmlValue Normal
+hi link htmlH1 Constant
+hi link htmlTitle Operator
+hi htmlBoldItalicUnderline guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=bold,italic,underline cterm=bold,italic,underline
+hi htmlBold guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=bold cterm=bold
+hi htmlUnderlineBold guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=underline,bold cterm=underline,bold
+hi htmlUnderlineItalicBold guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=underline,italic,bold cterm=underline,italic,bold
+hi htmlUnderlineBoldItalic guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=underline,bold,italic cterm=underline,bold,italic
+hi htmlItalic guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=italic cterm=italic
+hi htmlItalicUnderline guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=italic,underline cterm=italic,underline
+hi htmlItalicBold guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=italic,bold cterm=italic,bold
+hi htmlItalicBoldUnderline guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=bold,underline cterm=bold,underline
+hi htmlItalicUnderlineBold guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=underline,bold cterm=underline,bold
 hi link javaScriptExpression javascript
 hi link javaClassDecl Define
 hi link javaScopeDecl Statement

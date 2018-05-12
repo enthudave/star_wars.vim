@@ -1,11 +1,11 @@
 cssComment: '' # Comment
 cssVendor: '' # Comment
 cssHacks: '' # Comment
-cssTagName: '' # Statement
+cssTagName: '@Identifier' # Statement
 cssDeprecated: '' # Error
 cssSelectorOp: '' # Special
 cssSelectorOp2: '' # Special
-cssAttrComma: '' # Special
+cssAttrComma: '@Operator' # Special
 cssAnimationProp: '' # cssProp
 cssBackgroundProp: '' # cssProp
 cssBorderProp: '' # cssProp
@@ -80,8 +80,8 @@ cssFunction: '' # Constant
 cssURL: '' # String
 cssFunctionName: '' # Function
 cssFunctionComma: '' # Function
-cssColor: '' # Constant
-cssIdentifier: '' # Function
+cssColor: '@Normal' # Constant
+cssIdentifier: '@Special' # Function
 cssInclude: '' # Include
 cssIncludeKeyword: '' # atKeyword
 cssImportant: '' # Special
@@ -94,7 +94,7 @@ cssStringQ: '' # String
 cssAttributeSelector: '' # String
 cssMedia: '' # atKeyword
 cssMediaType: '' # Special
-cssMediaComma: '' # Normal
+cssMediaComma: '@Operator' # Normal
 cssMediaKeyword: '' # Statement
 cssMediaProp: '' # cssProp
 cssMediaAttr: '' # cssAttr
@@ -109,12 +109,12 @@ cssFontDescriptorFunction: '' # Constant
 cssFontDescriptorProp: '' # cssProp
 cssFontDescriptorAttr: '' # cssAttr
 cssUnicodeRange: '' # Constant
-cssClassName: '' # Function
-cssClassNameDot: '' # Function
-cssProp: '' # StorageClass
-cssAttr: '' # Constant
+cssClassName: '@Type' # Function
+cssClassNameDot: '@Type' # Function
+cssProp: '@Keyword' # StorageClass
+cssAttr: '@Normal' # Constant
 cssUnitDecorators: '' # Number
-cssNoise: '' # Noise
+cssNoise: '@Operator' # Noise
 atKeyword: '' # PreProc
 
 

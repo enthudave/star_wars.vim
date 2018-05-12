@@ -1,27 +1,27 @@
-htmlTag: '@Statement' # Function
+htmlTag: '@Normal' # Function
 htmlEndTag: '@Normal' # Identifier
-htmlArg: '@Comment' # Type
-htmlTagName: '@Statement' # htmlStatement
+htmlArg: '@Statement' # Type
+htmlTagName: '@Identifier' # htmlStatement
 htmlSpecialTagName: '' # Exception
-htmlValue: '' # String
-htmlH1: '' # Title
+htmlValue: '@Normal' # String
+htmlH1: '@Constant' # Title
 htmlH2: '' # htmlH1
 htmlH3: '' # htmlH2
 htmlH4: '' # htmlH3
 htmlH5: '' # htmlH4
 htmlH6: '' # htmlH5
 htmlHead: '' # PreProc
-htmlTitle: '' # Title
-htmlBoldItalicUnderline: '' # htmlBoldUnderlineItalic
-htmlBold: 'light_blue -' # htmlBoldUnderlineItalic
-htmlUnderlineBold: '' # htmlBoldUnderline
-htmlUnderlineItalicBold: '' # htmlBoldUnderlineItalic
-htmlUnderlineBoldItalic: '' # htmlBoldUnderlineItalic
-htmlItalic: 'orange -' # htmlUnderlineItalic
-htmlItalicUnderline: '' # htmlUnderlineItalic
-htmlItalicBold: '' # htmlBoldItalic
-htmlItalicBoldUnderline: '' # htmlBoldUnderlineItalic
-htmlItalicUnderlineBold: '' # htmlBoldUnderlineItalic
+htmlTitle: '@Operator' # Title
+htmlBoldItalicUnderline: '- - biu' # htmlBoldUnderlineItalic
+htmlBold: '- - b' # htmlBoldUnderlineItalic
+htmlUnderlineBold: '- - ub' # htmlBoldUnderline
+htmlUnderlineItalicBold: '- - uib' # htmlBoldUnderlineItalic
+htmlUnderlineBoldItalic: '- - ubi' # htmlBoldUnderlineItalic
+htmlItalic: '- - i' # htmlUnderlineItalic
+htmlItalicUnderline: '- - iu' # htmlUnderlineItalic
+htmlItalicBold: '- - ib' # htmlBoldItalic
+htmlItalicBoldUnderline: '- - bu' # htmlBoldUnderlineItalic
+htmlItalicUnderlineBold: '- - ub' # htmlBoldUnderlineItalic
 htmlLink: '' # Underlined
 htmlLeadingSpace: '' # None
 htmlPreStmt: '' # PreProc
