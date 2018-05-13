@@ -1,12 +1,12 @@
 xmlTodo: '' # Todo
-xmlTag: '@Statement' # Function
-xmlTagName: '@Statement' # Function
-xmlEndTag: '@Normal' # Identifier
+xmlTag: '@Identifier' # Function
+xmlTagName: 'light_blue - b' # Function
+xmlEndTag: '@Identifier' # Identifier
 xmlNamespace: '' # Tag
 xmlEntity: '' # Statement
 xmlEntityPunct: '' # Type
 xmlAttribPunct: '' # Comment
-xmlAttrib: '@Comment' # Type
+xmlAttrib: '@Keyword' # Type
 xmlString: '' # String
 xmlComment: '' # Comment
 xmlCommentStart: '' # xmlComment

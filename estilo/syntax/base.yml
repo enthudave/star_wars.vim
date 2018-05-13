@@ -45,7 +45,7 @@ TabLineSel     : 'base7 green'
 Title          : 'yellow -'
 Visual         : '- base3'
 VisualNOS      : '- base3'
-WarningMsg     : 'bright_orange -'
+WarningMsg     : 'base6 bright_orange'
 WildMenu       : 'base7 light_blue'
 Comment        : 'base3 -'
 Constant       : 'bright_orange -'
@@ -80,7 +80,7 @@ SpecialComment : '@Special' # Special
 Debug          : '@Special' # Special
 Underlined     : '- - u'
 Ignore         : ''
-Error          : 'red - b'
+Error          : 'base6 red'
 Todo           : 'orange - b'
 
 

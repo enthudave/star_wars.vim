@@ -6,6 +6,9 @@ intended to be used with [syntax-extras.vim](https://github.com/enthudave/syntax
 and for,
   * Python     : [vim-python/python-syntax](https://github.com/vim-python/python-syntax)
   * Javascript : [pangloss/vim-javascript](https://github.com/pangloss/vim-javascript)
+  * C, CPP :  
+    * [octol/vim-cpp-enhanced-highlight](https://github.com/octol/vim-cpp-enhanced-highlight)
+    * [justinmk/vim-syntax-extra](https://github.com/justinmk/vim-syntax-extra)
 
 ![ruby](https://user-images.githubusercontent.com/11585206/39774945-ad13df80-52fc-11e8-9146-b0bbfd7e7fbf.png)
 ![python](https://user-images.githubusercontent.com/11585206/39775218-80c2b068-52fd-11e8-943f-a5f9bfe3bc8f.png)

@@ -4,7 +4,7 @@
 " URL: 
 " Author: enthudave
 " License: 
-" Last Change: 2018/05/12 20:07
+" Last Change: 2018/05/13 01:40
 " ===============================================================
 
 set background=dark
@@ -59,7 +59,7 @@ hi TabLineSel guifg=#000000 ctermfg=0 guibg=#78bd65 ctermbg=107 gui=NONE cterm=N
 hi Title guifg=#e4d867 ctermfg=185 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Visual guifg=NONE ctermfg=NONE guibg=#686b78 ctermbg=242 gui=NONE cterm=NONE
 hi VisualNOS guifg=NONE ctermfg=NONE guibg=#686b78 ctermbg=242 gui=NONE cterm=NONE
-hi WarningMsg guifg=#ffad33 ctermfg=215 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi WarningMsg guifg=#1c1d21 ctermfg=234 guibg=#ffad33 ctermbg=215 gui=NONE cterm=NONE
 hi WildMenu guifg=#000000 ctermfg=0 guibg=#6dc0df ctermbg=74 gui=NONE cterm=NONE
 hi Comment guifg=#686b78 ctermfg=242 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Constant guifg=#ffad33 ctermfg=215 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -93,7 +93,7 @@ hi link Delimiter Normal
 hi link SpecialComment Special
 hi link Debug Special
 hi Underlined guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=underline cterm=underline
-hi Error guifg=#eb3d54 ctermfg=167 guibg=NONE ctermbg=NONE gui=bold cterm=bold
+hi Error guifg=#1c1d21 ctermfg=234 guibg=#eb3d54 ctermbg=167 gui=NONE cterm=NONE
 hi Todo guifg=#ef7c2a ctermfg=208 guibg=NONE ctermbg=NONE gui=bold cterm=bold
 hi link cssTagName Identifier
 hi link cssAttrComma Operator
@@ -240,10 +240,10 @@ hi GitGutterChange guifg=#6dc0df ctermfg=74 guibg=#2f3137 ctermbg=236 gui=NONE c
 hi GitGutterDelete guifg=#e4d867 ctermfg=185 guibg=#2f3137 ctermbg=236 gui=NONE cterm=NONE
 hi GitGutterChangeDelete guifg=#ef7c2a ctermfg=208 guibg=#2f3137 ctermbg=236 gui=NONE cterm=NONE
 hi link vimCondHL Conditional
-hi link xmlTag Statement
-hi link xmlTagName Statement
-hi link xmlEndTag Normal
-hi link xmlAttrib Comment
+hi link xmlTag Identifier
+hi xmlTagName guifg=#6dc0df ctermfg=74 guibg=NONE ctermbg=NONE gui=bold cterm=bold
+hi link xmlEndTag Identifier
+hi link xmlAttrib Keyword
 hi link javascriptReserved Error
 hi link javascriptReservedCase Error
 hi link javascriptInvalidOp Error
