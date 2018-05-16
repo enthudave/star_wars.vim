@@ -16,7 +16,7 @@ markdownLinkDelimiter: '' # htmlLink
 markdownIdDeclaration: '' # Typedef
 markdownId: '' # Type
 markdownAutomaticLink: '' # markdownUrl
-markdownUrl: '' # Float
+markdownUrl: '@Identifier' # Float
 markdownUrlTitle: '' # String
 markdownIdDelimiter: '' # markdownLinkDelimiter
 markdownUrlDelimiter: '' # htmlTag
