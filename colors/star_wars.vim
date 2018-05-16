@@ -4,7 +4,7 @@
 " URL: 
 " Author: enthudave
 " License: 
-" Last Change: 2018/05/13 01:40
+" Last Change: 2018/05/15 16:53
 " ===============================================================
 
 set background=dark
@@ -59,7 +59,7 @@ hi TabLineSel guifg=#000000 ctermfg=0 guibg=#78bd65 ctermbg=107 gui=NONE cterm=N
 hi Title guifg=#e4d867 ctermfg=185 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Visual guifg=NONE ctermfg=NONE guibg=#686b78 ctermbg=242 gui=NONE cterm=NONE
 hi VisualNOS guifg=NONE ctermfg=NONE guibg=#686b78 ctermbg=242 gui=NONE cterm=NONE
-hi WarningMsg guifg=#1c1d21 ctermfg=234 guibg=#ffad33 ctermbg=215 gui=NONE cterm=NONE
+hi WarningMsg guifg=#ffad33 ctermfg=215 guibg=#1c1d21 ctermbg=234 gui=NONE cterm=NONE
 hi WildMenu guifg=#000000 ctermfg=0 guibg=#6dc0df ctermbg=74 gui=NONE cterm=NONE
 hi Comment guifg=#686b78 ctermfg=242 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Constant guifg=#ffad33 ctermfg=215 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
