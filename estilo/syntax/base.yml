@@ -14,7 +14,7 @@ DiffRemoved    : 'red base6'
 DiffSubname    : 'base4'
 DiffDelete     : 'base7 red'
 DiffText       : 'base7 light_blue'
-ErrorMsg       : 'base6 red'
+ErrorMsg       : 'red base6'
 VertSplit      : 'base2 base4'
 Folded         : 'base6 blue'
 FoldColumn     : 'base5 base3'
@@ -80,7 +80,7 @@ SpecialComment : '@Special' # Special
 Debug          : '@Special' # Special
 Underlined     : '- - u'
 Ignore         : ''
-Error          : 'red base6'
+Error          : 'base6 red'
 Todo           : 'orange - b'
 
 
