@@ -4,7 +4,7 @@
 " URL: 
 " Author: enthudave
 " License: 
-" Last Change: 2018/05/16 22:56
+" Last Change: 2018/05/17 23:47
 " ===============================================================
 
 set background=dark
@@ -29,7 +29,7 @@ hi DiffRemoved guifg=#eb3d54 ctermfg=167 guibg=#1c1d21 ctermbg=234 gui=NONE cter
 hi DiffSubname guifg=#45474f ctermfg=238 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi DiffDelete guifg=#000000 ctermfg=0 guibg=#eb3d54 ctermbg=167 gui=NONE cterm=NONE
 hi DiffText guifg=#000000 ctermfg=0 guibg=#6dc0df ctermbg=74 gui=NONE cterm=NONE
-hi ErrorMsg guifg=#eb3d54 ctermfg=167 guibg=#1c1d21 ctermbg=234 gui=NONE cterm=NONE
+hi ErrorMsg guifg=#1c1d21 ctermfg=234 guibg=#eb3d54 ctermbg=167 gui=NONE cterm=NONE
 hi VertSplit guifg=#848794 ctermfg=102 guibg=#45474f ctermbg=238 gui=NONE cterm=NONE
 hi Folded guifg=#1c1d21 ctermfg=234 guibg=#4fb4d8 ctermbg=74 gui=NONE cterm=NONE
 hi FoldColumn guifg=#2f3137 ctermfg=236 guibg=#686b78 ctermbg=242 gui=NONE cterm=NONE
@@ -93,7 +93,7 @@ hi link Delimiter Normal
 hi link SpecialComment Special
 hi link Debug Special
 hi Underlined guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=underline cterm=underline
-hi Error guifg=#1c1d21 ctermfg=234 guibg=#eb3d54 ctermbg=167 gui=NONE cterm=NONE
+hi Error guifg=#eb3d54 ctermfg=167 guibg=#1c1d21 ctermbg=234 gui=NONE cterm=NONE
 hi Todo guifg=#ef7c2a ctermfg=208 guibg=NONE ctermbg=NONE gui=bold cterm=bold
 hi link cssTagName Identifier
 hi link cssAttrComma Operator
@@ -126,6 +126,7 @@ hi htmlItalicUnderlineBold guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=u
 hi link javaScriptExpression javascript
 hi link javaClassDecl Define
 hi link javaScopeDecl Statement
+hi link jsonKeyword Identifier
 hi link markdownUrl Identifier
 hi link pythonRun Comment
 hi link pythonStatement Statement
