@@ -6,7 +6,7 @@ jsonNumber: '' # Number
 jsonBraces: '' # Delimiter
 jsonNull: '' # Function
 jsonBoolean: '' # Boolean
-jsonKeyword: '@Identifier' # Label
+jsonKeyword: '' # Label
 jsonKeywordMatch: '' # Label
 jsonNumError: '' # Error
 jsonCommentError: '' # Error

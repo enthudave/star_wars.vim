@@ -4,7 +4,7 @@
 " URL: 
 " Author: enthudave
 " License: 
-" Last Change: 2018/05/18 00:23
+" Last Change: 2018/05/18 00:31
 " ============================================================
 
 let s:p = {"normal": {}, "inactive": {}, "insert": {}, "replace": {}, "visual": {}, "tabline": {} }

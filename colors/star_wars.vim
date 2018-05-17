@@ -4,7 +4,7 @@
 " URL: 
 " Author: enthudave
 " License: 
-" Last Change: 2018/05/18 00:23
+" Last Change: 2018/05/18 00:31
 " ===============================================================
 
 set background=dark
@@ -126,7 +126,6 @@ hi htmlItalicUnderlineBold guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=u
 hi link javaScriptExpression javascript
 hi link javaClassDecl Define
 hi link javaScopeDecl Statement
-hi link jsonKeyword Identifier
 hi link markdownUrl Identifier
 hi link pythonRun Comment
 hi link pythonStatement Statement
