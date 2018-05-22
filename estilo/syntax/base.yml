@@ -80,7 +80,7 @@ SpecialComment : '@Special' # Special
 Debug          : '@Special' # Special
 Underlined     : '- - u'
 Ignore         : ''
-Error          : 'base6 red'
+Error          : 'base0 red'
 Todo           : 'orange - b'
 
 

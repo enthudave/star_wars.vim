@@ -4,7 +4,7 @@
 " URL: 
 " Author: enthudave
 " License: 
-" Last Change: 2018/05/18 00:31
+" Last Change: 2018/05/20 00:24
 " ===============================================================
 
 set background=dark
@@ -93,7 +93,7 @@ hi link Delimiter Normal
 hi link SpecialComment Special
 hi link Debug Special
 hi Underlined guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=underline cterm=underline
-hi Error guifg=#1c1d21 ctermfg=234 guibg=#eb3d54 ctermbg=167 gui=NONE cterm=NONE
+hi Error guifg=#f1f1f1 ctermfg=255 guibg=#eb3d54 ctermbg=167 gui=NONE cterm=NONE
 hi Todo guifg=#ef7c2a ctermfg=208 guibg=NONE ctermbg=NONE gui=bold cterm=bold
 hi link cssTagName Identifier
 hi link cssAttrComma Operator
