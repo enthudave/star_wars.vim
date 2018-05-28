@@ -4,7 +4,7 @@
 " URL:
 " Author: enthudave
 " License: 
-" Last Change: 2018/05/20 00:24
+" Last Change: 2018/05/28 17:44
 " ============================================================
 
 let g:airline#themes#star_wars#palette = {}
