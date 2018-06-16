@@ -4,7 +4,7 @@
 " URL: 
 " Author: enthudave
 " License: 
-" Last Change: 2018/05/28 17:44
+" Last Change: 2018/06/16 21:25
 " ===============================================================
 
 set background=dark
@@ -16,7 +16,8 @@ let g:colors_name="star_wars"
 
 hi ColorColumn guifg=NONE ctermfg=NONE guibg=#000000 ctermbg=0 gui=NONE cterm=NONE
 hi Conceal guifg=#78bd65 ctermfg=107 guibg=#cbcdd2 ctermbg=252 gui=NONE cterm=NONE
-hi Cursor guifg=#78bd65 ctermfg=107 guibg=#000000 ctermbg=0 gui=NONE cterm=NONE
+hi Cursor guifg=#000000 ctermfg=0 guibg=#78bd65 ctermbg=107 gui=NONE cterm=NONE
+hi CursorIM guifg=#6dc0df ctermfg=74 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi CursorColumn guifg=NONE ctermfg=NONE guibg=#2f3137 ctermbg=236 gui=NONE cterm=NONE
 hi CursorLine guifg=NONE ctermfg=NONE guibg=#2f3137 ctermbg=236 gui=NONE cterm=NONE
 hi CursorLineNr guifg=#e4d867 ctermfg=185 guibg=#45474f ctermbg=238 gui=NONE cterm=NONE
@@ -31,14 +32,14 @@ hi DiffDelete guifg=#000000 ctermfg=0 guibg=#eb3d54 ctermbg=167 gui=NONE cterm=N
 hi DiffText guifg=#000000 ctermfg=0 guibg=#6dc0df ctermbg=74 gui=NONE cterm=NONE
 hi ErrorMsg guifg=#eb3d54 ctermfg=167 guibg=#1c1d21 ctermbg=234 gui=NONE cterm=NONE
 hi VertSplit guifg=#848794 ctermfg=102 guibg=#45474f ctermbg=238 gui=NONE cterm=NONE
-hi Folded guifg=#1c1d21 ctermfg=234 guibg=#4fb4d8 ctermbg=74 gui=NONE cterm=NONE
+hi Folded guifg=#000000 ctermfg=0 guibg=#4fb4d8 ctermbg=74 gui=NONE cterm=NONE
 hi FoldColumn guifg=#2f3137 ctermfg=236 guibg=#686b78 ctermbg=242 gui=NONE cterm=NONE
 hi SignColumn guifg=NONE ctermfg=NONE guibg=#2f3137 ctermbg=236 gui=NONE cterm=NONE
 hi IncSearch guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=reverse cterm=reverse
 hi LineNr guifg=#848794 ctermfg=102 guibg=#2f3137 ctermbg=236 gui=NONE cterm=NONE
 hi MatchParen guifg=#000000 ctermfg=0 guibg=#6dc0df ctermbg=74 gui=bold cterm=bold
 hi ModeMsg guifg=#4fb4d8 ctermfg=74 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi NonText guifg=#45474f ctermfg=238 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi NonText guifg=#848794 ctermfg=102 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Normal guifg=#f1f1f1 ctermfg=255 guibg=#1c1d21 ctermbg=234 gui=NONE cterm=NONE
 hi PMenu guifg=#000000 ctermfg=0 guibg=#6dc0df ctermbg=74 gui=NONE cterm=NONE
 hi PMenuSel guifg=#000000 ctermfg=0 guibg=#78bd65 ctermbg=107 gui=bold cterm=bold
@@ -46,7 +47,7 @@ hi PmenuSbar guifg=NONE ctermfg=NONE guibg=#848794 ctermbg=102 gui=NONE cterm=NO
 hi PmenuThumb guifg=NONE ctermfg=NONE guibg=#45474f ctermbg=238 gui=NONE cterm=NONE
 hi Question guifg=#78bd65 ctermfg=107 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Search guifg=#000000 ctermfg=0 guibg=#6dc0df ctermbg=74 gui=bold cterm=bold
-hi SpecialKey guifg=#686b78 ctermfg=242 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi SpecialKey guifg=#848794 ctermfg=102 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi SpellBad guifg=#000000 ctermfg=0 guibg=#eb3d54 ctermbg=167 gui=NONE cterm=NONE
 hi SpellLocal guifg=#e4d867 ctermfg=185 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi SpellCap guifg=#000000 ctermfg=0 guibg=#ef7c2a ctermbg=208 gui=NONE cterm=NONE
@@ -113,16 +114,16 @@ hi link htmlTagName Identifier
 hi link htmlValue Normal
 hi link htmlH1 Constant
 hi link htmlTitle Operator
-hi htmlBoldItalicUnderline guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=bold,italic,underline cterm=bold,italic,underline
-hi htmlBold guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=bold cterm=bold
-hi htmlUnderlineBold guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=underline,bold cterm=underline,bold
-hi htmlUnderlineItalicBold guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=underline,italic,bold cterm=underline,italic,bold
-hi htmlUnderlineBoldItalic guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=underline,bold,italic cterm=underline,bold,italic
-hi htmlItalic guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=italic cterm=italic
-hi htmlItalicUnderline guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=italic,underline cterm=italic,underline
-hi htmlItalicBold guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=italic,bold cterm=italic,bold
-hi htmlItalicBoldUnderline guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=bold,underline cterm=bold,underline
-hi htmlItalicUnderlineBold guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=underline,bold cterm=underline,bold
+hi htmlBoldItalicUnderline guifg=#f1f1f1 ctermfg=255 guibg=#1c1d21 ctermbg=234 gui=bold,italic,underline cterm=bold,italic,underline
+hi htmlBold guifg=#f1f1f1 ctermfg=255 guibg=#1c1d21 ctermbg=234 gui=bold cterm=bold
+hi htmlUnderlineBold guifg=#f1f1f1 ctermfg=255 guibg=#1c1d21 ctermbg=234 gui=underline,bold cterm=underline,bold
+hi htmlUnderlineItalicBold guifg=#f1f1f1 ctermfg=255 guibg=#1c1d21 ctermbg=234 gui=underline,italic,bold cterm=underline,italic,bold
+hi htmlUnderlineBoldItalic guifg=#f1f1f1 ctermfg=255 guibg=#1c1d21 ctermbg=234 gui=underline,bold,italic cterm=underline,bold,italic
+hi htmlItalic guifg=#f1f1f1 ctermfg=255 guibg=#1c1d21 ctermbg=234 gui=italic cterm=italic
+hi htmlItalicUnderline guifg=#f1f1f1 ctermfg=255 guibg=#1c1d21 ctermbg=234 gui=italic,underline cterm=italic,underline
+hi htmlItalicBold guifg=#f1f1f1 ctermfg=255 guibg=#1c1d21 ctermbg=234 gui=italic,bold cterm=italic,bold
+hi htmlItalicBoldUnderline guifg=#f1f1f1 ctermfg=255 guibg=#1c1d21 ctermbg=234 gui=bold,underline cterm=bold,underline
+hi htmlItalicUnderlineBold guifg=#f1f1f1 ctermfg=255 guibg=#1c1d21 ctermbg=234 gui=underline,bold cterm=underline,bold
 hi link javaScriptExpression javascript
 hi link javaClassDecl Define
 hi link javaScopeDecl Statement

@@ -12,16 +12,16 @@ htmlH5: '' # htmlH4
 htmlH6: '' # htmlH5
 htmlHead: '' # PreProc
 htmlTitle: '@Operator' # Title
-htmlBoldItalicUnderline: '- - biu' # htmlBoldUnderlineItalic
-htmlBold: '- - b' # htmlBoldUnderlineItalic
-htmlUnderlineBold: '- - ub' # htmlBoldUnderline
-htmlUnderlineItalicBold: '- - uib' # htmlBoldUnderlineItalic
-htmlUnderlineBoldItalic: '- - ubi' # htmlBoldUnderlineItalic
-htmlItalic: '- - i' # htmlUnderlineItalic
-htmlItalicUnderline: '- - iu' # htmlUnderlineItalic
-htmlItalicBold: '- - ib' # htmlBoldItalic
-htmlItalicBoldUnderline: '- - bu' # htmlBoldUnderlineItalic
-htmlItalicUnderlineBold: '- - ub' # htmlBoldUnderlineItalic
+htmlBoldItalicUnderline: 'base0 base6 biu' # htmlBoldUnderlineItalic
+htmlBold: 'base0 base6 b' # htmlBoldUnderlineItalic
+htmlUnderlineBold: 'base0 base6 ub' # htmlBoldUnderline
+htmlUnderlineItalicBold: 'base0 base6 uib' # htmlBoldUnderlineItalic
+htmlUnderlineBoldItalic: 'base0 base6 ubi' # htmlBoldUnderlineItalic
+htmlItalic: 'base0 base6 i' # htmlUnderlineItalic
+htmlItalicUnderline: 'base0 base6 iu' # htmlUnderlineItalic
+htmlItalicBold: 'base0 base6 ib' # htmlBoldItalic
+htmlItalicBoldUnderline: 'base0 base6 bu' # htmlBoldUnderlineItalic
+htmlItalicUnderlineBold: 'base0 base6 ub' # htmlBoldUnderlineItalic
 htmlLink: '' # Underlined
 htmlLeadingSpace: '' # None
 htmlPreStmt: '' # PreProc
