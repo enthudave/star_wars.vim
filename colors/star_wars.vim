@@ -4,7 +4,7 @@
 " URL: 
 " Author: enthudave
 " License: 
-" Last Change: 2018/06/16 21:25
+" Last Change: 2018/06/17 11:19
 " ===============================================================
 
 set background=dark
@@ -16,8 +16,8 @@ let g:colors_name="star_wars"
 
 hi ColorColumn guifg=NONE ctermfg=NONE guibg=#000000 ctermbg=0 gui=NONE cterm=NONE
 hi Conceal guifg=#78bd65 ctermfg=107 guibg=#cbcdd2 ctermbg=252 gui=NONE cterm=NONE
-hi Cursor guifg=#000000 ctermfg=0 guibg=#78bd65 ctermbg=107 gui=NONE cterm=NONE
-hi CursorIM guifg=#6dc0df ctermfg=74 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi Cursor guifg=#000000 ctermfg=0 guibg=#ef10eb ctermbg=13 gui=NONE cterm=NONE
+hi CursorIM guifg=#000000 ctermfg=0 guibg=#78bd65 ctermbg=107 gui=NONE cterm=NONE
 hi CursorColumn guifg=NONE ctermfg=NONE guibg=#2f3137 ctermbg=236 gui=NONE cterm=NONE
 hi CursorLine guifg=NONE ctermfg=NONE guibg=#2f3137 ctermbg=236 gui=NONE cterm=NONE
 hi CursorLineNr guifg=#e4d867 ctermfg=185 guibg=#45474f ctermbg=238 gui=NONE cterm=NONE
